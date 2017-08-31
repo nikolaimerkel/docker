@@ -10,4 +10,4 @@ ADD run.sh /run.sh
 
 RUN chmod +x /run.sh
 
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
