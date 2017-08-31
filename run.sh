@@ -1,6 +1,7 @@
 #! /bin/bash
-echo "List resources"
 
-kubectl
 
-echo "sleep"
+while true ; do
+    sleep 30
+    echo "Hi"
+  done
