@@ -1,2 +1,4 @@
 #! /bin/bash
-echo "Hello my name is Nikolai"
+echo "List resources"
+
+kubectl get all
