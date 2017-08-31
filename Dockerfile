@@ -1,3 +1,6 @@
 FROM centos:centos7
 
-CMD echo "Hello World"
+ADD run.sh /run.sh
+RUN chmod +x /run.sh
+
+CMD ["/run.sh"]
